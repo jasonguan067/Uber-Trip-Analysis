@@ -7,51 +7,59 @@ Align on business goals, data requirements, and deliverables for the Uber trip d
 
 ### 1. Key Metrics & Dimensions
 **KPI:**
-- Total Bookings, Total Booking Value, Average Booking Value
-- Total Trip Distance, Average Trip Distance, Average Trip Time
-- 
+- Total Trips
+- Total Trip Value
+- Average Trip Value
+- Total Trip Distance
+- Average Trip Distance
+- Average Trip Time
 
 **North Star Metric:**
-- Weekly Active Riders 
+- Trips by Hour
+  
 **Key Dimensions:**
 - Payment Type
 - Vehicle
 - PULocationID, DOLocationID
 - Pickup Time, Drop Off Time
 
-### 2. Trends & Segmentation
-**Questions Asked:**
-- Are there any data that skews the averages? How should we approach these numbers.
-- Key goals to prioritize?
-- Any outlier periods to exclude?
+ **Questions for Stakeholders:**
+- Are there additional operational metrics we should track?
+- How should we prioritize these dimensions for decision-making?
 
-**Stakeholder Responses:**
-- [Response here]
-- Example: "Focus on weekend vs. weekday trends"
 
-### 3. Data Access
-**Questions Asked:**
-- Where is data stored?
-- Any access permissions needed?
+### 2. Data Scope & Quality
+**Data Source:**
+- AWS infrastructure (S3 storage, Athena queries)
+- Date range: 6/1/24 - 8/30/24
+- City coverage: New York City
 
-**Stakeholder Responses:**
-- [Response here]
+**Validation Needs:**
+- Should we exclude any test or outlier data?
+- Are there known data quality issues to address?
 
+### 3. Analytical Focus Areas
+**Potential Investigation Areas:**
+1. Demand patterns by time and location
+2. Vehicle type profitability comparisons
+3. High-frequency route identification
+4. Payment method trends
+
+**Stakeholder Input Needed:**
+- Which focus areas are most critical for operations?
+- Are there specific hypotheses we should test?
   
-### 4. Deliverables
-**Questions Asked:**
-- Preferred dashboard format (Power BI/Tableau/Excel/PDF)?
-- Should the dashboard be interactive or static?
-- Any existing templates/branding guidelines?
+### 4. Dashboard Requirements
+**Technical Specifications:**
+- Platform: Power BI
+- Branding/visual style guidelines
+- Highlight maximum values in chart
 
-**Stakeholder Responses:**
-- [Response here]
-
-### 
-
-### 5. Post-Meeting Clarifications
-**Confirmed Details:**
--
+### 5. Success Criteria
+**Expected Outcomes:**
+- Identify 3-5 key operational insights
+- Provide actionable recommendations
+- Establish baseline metrics for future comparison
 
 ## Next Steps
 
