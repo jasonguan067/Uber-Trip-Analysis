@@ -1,8 +1,14 @@
 # Uber NYC Trip Analysis (June - August 2024)
+## Tech stack
+![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Microsoft PowerPoint](https://img.shields.io/badge/Microsoft_PowerPoint-B7472A?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ## Project Background and Overview
 
-Uber, founded in 2009, revolutionized urban transportation through its ride-sharing platform. In NYC, Uber facilitates **103,730 trips monthly** across 5 boroughs. This analysis was developed in collaboration with Uber's **Head of Marketing**, aligning with the [Stakeholder Requirements](./stakeholder.md) to:
+Uber, founded in 2009, revolutionized transportation through its ride sharing platform. In this data, Uber facilitates **103,730 trips monthly** across 5 districts during June to August. This analysis was developed in collaboration with Uber's **Head of Marketing**, aligning with the [Stakeholder Requirements](./stakeholder.md) to:
 
 1. Optimize pricing strategies using time/location demand patterns
 2. Improve vehicle mix based on profitability analysis
@@ -39,31 +45,30 @@ This analysis uses Uber data representing **trip details and location data** fro
 
 ## Executive Summary
 
-### 1. Fleet Optimization Opportunity
+### 1. Vehicle Optimization Opportunity
 **Uber Green Profitability Gap:**
 - Uber Green vehicles generate **$58.36/hour**, outperforming UberX ($56.01) by **4.2%** in revenue efficiency
 - Despite this advantage, Uber Green represents only **14%** of total fleet utilization (14,498 trips vs. UberX's 38,744)
 - **Recommended Action:**
-  - Verify eligibility: Survey drivers to determine what % could switch to Green
-  - Pilot incentive: Offer **$5/hour bonus** to current Green drivers during 3 PM peak
-  - Track conversion: Measure if higher earnings attract more Green signups
+  - Verify eligibility: Survey drivers to determine what % could switch to Green to maxmize Uber Green Vehicles.
+  - Incentive: Offer **$5/hour bonus** to current Green drivers during 3 PM peak to boost capitalizes on existing 4.2% revenue advantage and targets the proven demand peak
 
 ### 2. Demand Concentration
 **Peak Time & Day Analysis:**
 - **3 PM hour** delivers **7.6% of daily trips** (7,900 rides) - the highest concentration
 - **Sundays** drive **18.4% of weekly volume** (19,200 trips) - busiest day of the week
 - **Recommended Action:**
-  - Optimize driver supply: Offer **$3/hour surge bonus** (2:30-4:30 PM daily) + **$25 Sunday bonus** (10+ rides)
-  - Targeted promotions: Deploy **$2 off promo codes** (3-4 PM and Sunday 12-6 PM)
+  - Optimize driver supply: Offer **$3/hour surge bonus** (2:30-4:30 PM daily) + **$25 Sunday bonus** (10+ rides) to matches incentives to proven demand spike
+  - Targeted promotions: Deploy **$2 off promo codes** (3-4 PM and Sunday 12-6 PM) to rewards participation on busiest days and aligns with rider demand patterns
 
 ### 3. Geographic Revenue Concentration
 **High-Value Pickup Zones:**
 - **Manhattan dominates** with **$0.92M** in trip value (3x Queens, 4x Brooklyn)
 - **Staten Island/Bronx**: <$0.08M combined (minimal activity)
 - **Recommended Actions:**
-  - Prioritize fleet in **Manhattan/Queens/Brooklyn** during peaks
-  - Offer **$5 pickup bonuses** in Bronx/Staten Island
-  - Tailor marketing to **high-value Manhattan zones**
+  - Prioritize fleet in **Manhattan/Queens/Brooklyn** during peaks due to the high average trip values
+  - Offer **$5 pickup bonuses** in Bronx/Staten Island to boost activity in underserved areas
+
 
 ## Insights Deep Dive
 
@@ -136,34 +141,35 @@ This analysis uses Uber data representing **trip details and location data** fro
 
 ### Fleet Operations Team
 1. **Green Vehicle Conversion**
-   - Pilot **$5/hour bonus** for Uber Green drivers during 3 PM peak
-   - Survey drivers to assess conversion potential to Green vehicles
+   - **$5/hour bonus** for Uber Green drivers during 3 PM peak
+   - Capitalizes on Green's proven 4.2% higher revenue efficiency during proven demand spike
 
 2. **Peak Hour Coverage**
    - Implement **$3/hour surge bonuses** (2:30-4:30 PM daily)
    - Launch **$20 night shift bonuses** (8 PM-2 AM, 8+ trips)
+   - Targets the 7,900 trips/hour occurring at 3 PM and the low frequency of night rides
 
 3. **Geographic Optimization**
    - Prioritize **Manhattan/Queens/Brooklyn** during peak hours
-   - Test **$5 pickup bonuses** in Bronx/Staten Island
+   - Implement **$5 pickup bonuses** in Bronx/Staten Island
+   - Manhattan/Queens/Brooklyn zone generates peak revenue while the pickup incentive helps to boost revenue in underperforming areas.
 
 ### Marketing Team
-1. **Demand Generation** *(Allocate Q3-Q4 promotional funds)*
+1. **Demand** 
    - Deploy **$2 promo codes** for:
      - 3-4 PM weekday trips
      - Sunday afternoons (12-6 PM)
    - Offer **10% weekend discounts** (10 AM-6 PM)
+   - Targets the highest demand day and time to increase frequency of rides for more opportunities to increase overall revenue.
 
 2. **Payment Method Strategy**
    - Promote **Uber Pay-exclusive perks** (loyalty rewards/cashback)
-   - Sunset **Google Pay** if adoption stays below 1% after 3 months
+   - Remove **Google Pay** if usage stays below 1% after 3 months
+   - Increases resources to boost Uber Pay's 67% usage.
 
 ### Marketplace Operations
-1. **High-Volume Corridors**
+1. **High Volume Locations**
    - Create **dedicated driver zones** at Penn Station (3-6 PM)
    - Test **flat-rate pricing** for top 5 routes (4.8% of volume)
 
-2. **Performance Tracking**
-   - Monitor **Uber Green conversion rates** post-incentives
-   - Measure **3 PM wait time reduction** (target: -15%)
-   - Track **Bronx/Staten Island pickup growth** (target: +20%)
+
