@@ -6,6 +6,7 @@
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
+**SQL Analysis Report**: [uber_trips_report.pdf](./sql/ubertrips_report.pdf)
 ## Project Background and Overview
 
 Uber, founded in 2009, revolutionized transportation through its ride sharing platform. In this data, Uber facilitates **103,730 trips monthly** across 5 districts during June to August. This analysis was developed in collaboration with Uber's **Head of Marketing**, aligning with the [Stakeholder Requirements](./stakeholder.md) to:
